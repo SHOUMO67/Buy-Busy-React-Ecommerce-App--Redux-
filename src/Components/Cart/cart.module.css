@@ -1,0 +1,147 @@
+h1{
+    margin-left: 5%;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #45a9f1;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1.5rem;
+}
+.cartTotalPrice{
+    position: fixed;
+    left: 75%;
+    right: .6%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #5ba9f7 0%, #b579ee 100%);
+    top: 77.6%;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.cartTotalPrice p{
+    color: #fdfdfe;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.button {
+    width: 70%;
+    padding: 4%;
+    background-color: #06bff8;
+    background-image: linear-gradient(43deg, #06bff8 0%, #e82ea8 46%, #f4ea05 100%);
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #ebe9f0eb;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1%;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+.button:hover{
+    background-color: #fff;
+    color: #5ed5f3;
+}
+.button:active{
+    scale: 0.9;
+}
+.productContainerGrid {
+    display: grid;
+    grid-gap: 2rem;
+    gap: 2rem;
+    grid-template-columns: repeat(3, .5fr);
+    margin: 25rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.productContainer {
+    align-items: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 2px 8px 0 #62629f80;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.productImageContainer {
+    flex: 1 1;
+}
+
+.productImageContainer img {
+    width: 90%;
+    height: 60%;
+}
+.productDetailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-start;
+}
+.name{
+    color: #303088;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 0.5rem .5rem;
+    margin-top: -5rem;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 0.5rem .5rem;
+    font-weight: 600;
+    color: #303088;
+}
+.btn{
+    width: 75%;
+    left: 3%;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #f73535 74%);
+    color: #fff;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    padding: 0.9rem ;
+    font-size: 1.1rem;
+    border-radius: 0.6rem;
+    border: 2px solid #fffcfc;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #ffd500;
+}
+.btn:active{
+    scale: 0.9;
+}
+.minusplus{
+    margin-left: 1.2rem;
+}
+i{ 
+    padding: .1rem;
+}
+.count{
+    padding: .6rem;
+    font-weight: 600;
+}
